@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455722641E4FFF9900EABF6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455722631E4FFF9900EABF6A /* AppDelegate.swift */; };
+		455722661E4FFF9900EABF6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455722651E4FFF9900EABF6A /* ViewController.swift */; };
+		455722691E4FFF9900EABF6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455722671E4FFF9900EABF6A /* Main.storyboard */; };
+		4557226B1E4FFF9900EABF6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4557226A1E4FFF9900EABF6A /* Assets.xcassets */; };
+		4557226E1E4FFF9900EABF6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4557226C1E4FFF9900EABF6A /* LaunchScreen.storyboard */; };
+		455722791E4FFF9900EABF6A /* dejavuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455722781E4FFF9900EABF6A /* dejavuTests.swift */; };
+		455722841E4FFF9900EABF6A /* dejavuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455722831E4FFF9900EABF6A /* dejavuUITests.swift */; };
+		4CB3EBA39489491F01B9BA43 /* Pods_dejavu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A1CEB56E7A70864B1EEE3E /* Pods_dejavu.framework */; };
+		684A6D6262DC97B9F4B6BB60 /* Pods_dejavuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4E8976BD719C468362A098 /* Pods_dejavuUITests.framework */; };
+		D6058788BF061B9966C2D132 /* Pods_dejavuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3C57F7ADB1501EA57056BD /* Pods_dejavuTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		455722751E4FFF9900EABF6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455722581E4FFF9800EABF6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4557225F1E4FFF9800EABF6A;
+			remoteInfo = dejavu;
+		};
+		455722801E4FFF9900EABF6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455722581E4FFF9800EABF6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4557225F1E4FFF9800EABF6A;
+			remoteInfo = dejavu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		455722601E4FFF9900EABF6A /* dejavu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dejavu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455722631E4FFF9900EABF6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		455722651E4FFF9900EABF6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		455722681E4FFF9900EABF6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4557226A1E4FFF9900EABF6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4557226D1E4FFF9900EABF6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4557226F1E4FFF9900EABF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455722741E4FFF9900EABF6A /* dejavuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dejavuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		455722781E4FFF9900EABF6A /* dejavuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dejavuTests.swift; sourceTree = "<group>"; };
+		4557227A1E4FFF9900EABF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4557227F1E4FFF9900EABF6A /* dejavuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dejavuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		455722831E4FFF9900EABF6A /* dejavuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dejavuUITests.swift; sourceTree = "<group>"; };
+		455722851E4FFF9900EABF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C06CB8CA3D90A9C51CD7A5F /* Pods-dejavuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejavuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dejavuUITests/Pods-dejavuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B14C1FCCD39DEC4BDEE4329 /* Pods-dejavuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejavuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dejavuTests/Pods-dejavuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81FE3EC6A265EE097C95F29B /* Pods-dejavuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejavuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dejavuUITests/Pods-dejavuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ABD3086371F2028A40B63DD7 /* Pods-dejavu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejavu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dejavu/Pods-dejavu.debug.xcconfig"; sourceTree = "<group>"; };
+		BF4E8976BD719C468362A098 /* Pods_dejavuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dejavuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF269DCB514647046E4E743 /* Pods-dejavuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejavuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dejavuTests/Pods-dejavuTests.release.xcconfig"; sourceTree = "<group>"; };
+		D39A215ED812C753807C1D84 /* Pods-dejavu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejavu.release.xcconfig"; path = "Pods/Target Support Files/Pods-dejavu/Pods-dejavu.release.xcconfig"; sourceTree = "<group>"; };
+		F9A1CEB56E7A70864B1EEE3E /* Pods_dejavu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dejavu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3C57F7ADB1501EA57056BD /* Pods_dejavuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dejavuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4557225D1E4FFF9800EABF6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB3EBA39489491F01B9BA43 /* Pods_dejavu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455722711E4FFF9900EABF6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6058788BF061B9966C2D132 /* Pods_dejavuTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4557227C1E4FFF9900EABF6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684A6D6262DC97B9F4B6BB60 /* Pods_dejavuUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014F02E6A04540AC20A480B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9A1CEB56E7A70864B1EEE3E /* Pods_dejavu.framework */,
+				FA3C57F7ADB1501EA57056BD /* Pods_dejavuTests.framework */,
+				BF4E8976BD719C468362A098 /* Pods_dejavuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		455722571E4FFF9800EABF6A = {
+			isa = PBXGroup;
+			children = (
+				455722621E4FFF9900EABF6A /* dejavu */,
+				455722771E4FFF9900EABF6A /* dejavuTests */,
+				455722821E4FFF9900EABF6A /* dejavuUITests */,
+				455722611E4FFF9900EABF6A /* Products */,
+				DC5A41B3BA76E740E655832B /* Pods */,
+				014F02E6A04540AC20A480B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		455722611E4FFF9900EABF6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455722601E4FFF9900EABF6A /* dejavu.app */,
+				455722741E4FFF9900EABF6A /* dejavuTests.xctest */,
+				4557227F1E4FFF9900EABF6A /* dejavuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		455722621E4FFF9900EABF6A /* dejavu */ = {
+			isa = PBXGroup;
+			children = (
+				455722631E4FFF9900EABF6A /* AppDelegate.swift */,
+				455722651E4FFF9900EABF6A /* ViewController.swift */,
+				455722671E4FFF9900EABF6A /* Main.storyboard */,
+				4557226A1E4FFF9900EABF6A /* Assets.xcassets */,
+				4557226C1E4FFF9900EABF6A /* LaunchScreen.storyboard */,
+				4557226F1E4FFF9900EABF6A /* Info.plist */,
+			);
+			path = dejavu;
+			sourceTree = "<group>";
+		};
+		455722771E4FFF9900EABF6A /* dejavuTests */ = {
+			isa = PBXGroup;
+			children = (
+				455722781E4FFF9900EABF6A /* dejavuTests.swift */,
+				4557227A1E4FFF9900EABF6A /* Info.plist */,
+			);
+			path = dejavuTests;
+			sourceTree = "<group>";
+		};
+		455722821E4FFF9900EABF6A /* dejavuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				455722831E4FFF9900EABF6A /* dejavuUITests.swift */,
+				455722851E4FFF9900EABF6A /* Info.plist */,
+			);
+			path = dejavuUITests;
+			sourceTree = "<group>";
+		};
+		DC5A41B3BA76E740E655832B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABD3086371F2028A40B63DD7 /* Pods-dejavu.debug.xcconfig */,
+				D39A215ED812C753807C1D84 /* Pods-dejavu.release.xcconfig */,
+				7B14C1FCCD39DEC4BDEE4329 /* Pods-dejavuTests.debug.xcconfig */,
+				CBF269DCB514647046E4E743 /* Pods-dejavuTests.release.xcconfig */,
+				5C06CB8CA3D90A9C51CD7A5F /* Pods-dejavuUITests.debug.xcconfig */,
+				81FE3EC6A265EE097C95F29B /* Pods-dejavuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4557225F1E4FFF9800EABF6A /* dejavu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455722881E4FFF9900EABF6A /* Build configuration list for PBXNativeTarget "dejavu" */;
+			buildPhases = (
+				07D6CAB3C1E5A473E85A217A /* [CP] Check Pods Manifest.lock */,
+				4557225C1E4FFF9800EABF6A /* Sources */,
+				4557225D1E4FFF9800EABF6A /* Frameworks */,
+				4557225E1E4FFF9800EABF6A /* Resources */,
+				CFEC91A65C0930CAC7E60257 /* [CP] Embed Pods Frameworks */,
+				E287F122D0A8A9021D1D153D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dejavu;
+			productName = dejavu;
+			productReference = 455722601E4FFF9900EABF6A /* dejavu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		455722731E4FFF9900EABF6A /* dejavuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4557228B1E4FFF9900EABF6A /* Build configuration list for PBXNativeTarget "dejavuTests" */;
+			buildPhases = (
+				7ACFA971D41F6954E5697CD4 /* [CP] Check Pods Manifest.lock */,
+				455722701E4FFF9900EABF6A /* Sources */,
+				455722711E4FFF9900EABF6A /* Frameworks */,
+				455722721E4FFF9900EABF6A /* Resources */,
+				7EDC3601E7FFFABF3C5D55FC /* [CP] Embed Pods Frameworks */,
+				F042B86F9AFDB315BE94024C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				455722761E4FFF9900EABF6A /* PBXTargetDependency */,
+			);
+			name = dejavuTests;
+			productName = dejavuTests;
+			productReference = 455722741E4FFF9900EABF6A /* dejavuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4557227E1E4FFF9900EABF6A /* dejavuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4557228E1E4FFF9900EABF6A /* Build configuration list for PBXNativeTarget "dejavuUITests" */;
+			buildPhases = (
+				444C3730DD061EF766D5D0FF /* [CP] Check Pods Manifest.lock */,
+				4557227B1E4FFF9900EABF6A /* Sources */,
+				4557227C1E4FFF9900EABF6A /* Frameworks */,
+				4557227D1E4FFF9900EABF6A /* Resources */,
+				4DC2D64B1A602E85653B2425 /* [CP] Embed Pods Frameworks */,
+				D96D9721CA71C842F748BA7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				455722811E4FFF9900EABF6A /* PBXTargetDependency */,
+			);
+			name = dejavuUITests;
+			productName = dejavuUITests;
+			productReference = 4557227F1E4FFF9900EABF6A /* dejavuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		455722581E4FFF9800EABF6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dougazz;
+				TargetAttributes = {
+					4557225F1E4FFF9800EABF6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NS2A2ZLLX3;
+						ProvisioningStyle = Automatic;
+					};
+					455722731E4FFF9900EABF6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NS2A2ZLLX3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4557225F1E4FFF9800EABF6A;
+					};
+					4557227E1E4FFF9900EABF6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NS2A2ZLLX3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4557225F1E4FFF9800EABF6A;
+					};
+				};
+			};
+			buildConfigurationList = 4557225B1E4FFF9800EABF6A /* Build configuration list for PBXProject "dejavu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 455722571E4FFF9800EABF6A;
+			productRefGroup = 455722611E4FFF9900EABF6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4557225F1E4FFF9800EABF6A /* dejavu */,
+				455722731E4FFF9900EABF6A /* dejavuTests */,
+				4557227E1E4FFF9900EABF6A /* dejavuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4557225E1E4FFF9800EABF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4557226E1E4FFF9900EABF6A /* LaunchScreen.storyboard in Resources */,
+				4557226B1E4FFF9900EABF6A /* Assets.xcassets in Resources */,
+				455722691E4FFF9900EABF6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455722721E4FFF9900EABF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4557227D1E4FFF9900EABF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D6CAB3C1E5A473E85A217A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		444C3730DD061EF766D5D0FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4DC2D64B1A602E85653B2425 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejavuUITests/Pods-dejavuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ACFA971D41F6954E5697CD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7EDC3601E7FFFABF3C5D55FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejavuTests/Pods-dejavuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFEC91A65C0930CAC7E60257 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejavu/Pods-dejavu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D96D9721CA71C842F748BA7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejavuUITests/Pods-dejavuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E287F122D0A8A9021D1D153D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejavu/Pods-dejavu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F042B86F9AFDB315BE94024C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejavuTests/Pods-dejavuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4557225C1E4FFF9800EABF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455722661E4FFF9900EABF6A /* ViewController.swift in Sources */,
+				455722641E4FFF9900EABF6A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455722701E4FFF9900EABF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455722791E4FFF9900EABF6A /* dejavuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4557227B1E4FFF9900EABF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455722841E4FFF9900EABF6A /* dejavuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		455722761E4FFF9900EABF6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4557225F1E4FFF9800EABF6A /* dejavu */;
+			targetProxy = 455722751E4FFF9900EABF6A /* PBXContainerItemProxy */;
+		};
+		455722811E4FFF9900EABF6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4557225F1E4FFF9800EABF6A /* dejavu */;
+			targetProxy = 455722801E4FFF9900EABF6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		455722671E4FFF9900EABF6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455722681E4FFF9900EABF6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4557226C1E4FFF9900EABF6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4557226D1E4FFF9900EABF6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455722861E4FFF9900EABF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		455722871E4FFF9900EABF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455722891E4FFF9900EABF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD3086371F2028A40B63DD7 /* Pods-dejavu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NS2A2ZLLX3;
+				INFOPLIST_FILE = dejavu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougazz.dejavu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4557228A1E4FFF9900EABF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39A215ED812C753807C1D84 /* Pods-dejavu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NS2A2ZLLX3;
+				INFOPLIST_FILE = dejavu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougazz.dejavu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4557228C1E4FFF9900EABF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B14C1FCCD39DEC4BDEE4329 /* Pods-dejavuTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NS2A2ZLLX3;
+				INFOPLIST_FILE = dejavuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougazz.dejavuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dejavu.app/dejavu";
+			};
+			name = Debug;
+		};
+		4557228D1E4FFF9900EABF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF269DCB514647046E4E743 /* Pods-dejavuTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NS2A2ZLLX3;
+				INFOPLIST_FILE = dejavuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougazz.dejavuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dejavu.app/dejavu";
+			};
+			name = Release;
+		};
+		4557228F1E4FFF9900EABF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C06CB8CA3D90A9C51CD7A5F /* Pods-dejavuUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NS2A2ZLLX3;
+				INFOPLIST_FILE = dejavuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougazz.dejavuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = dejavu;
+			};
+			name = Debug;
+		};
+		455722901E4FFF9900EABF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FE3EC6A265EE097C95F29B /* Pods-dejavuUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NS2A2ZLLX3;
+				INFOPLIST_FILE = dejavuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougazz.dejavuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = dejavu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4557225B1E4FFF9800EABF6A /* Build configuration list for PBXProject "dejavu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455722861E4FFF9900EABF6A /* Debug */,
+				455722871E4FFF9900EABF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455722881E4FFF9900EABF6A /* Build configuration list for PBXNativeTarget "dejavu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455722891E4FFF9900EABF6A /* Debug */,
+				4557228A1E4FFF9900EABF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4557228B1E4FFF9900EABF6A /* Build configuration list for PBXNativeTarget "dejavuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4557228C1E4FFF9900EABF6A /* Debug */,
+				4557228D1E4FFF9900EABF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4557228E1E4FFF9900EABF6A /* Build configuration list for PBXNativeTarget "dejavuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4557228F1E4FFF9900EABF6A /* Debug */,
+				455722901E4FFF9900EABF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 455722581E4FFF9800EABF6A /* Project object */;
+}
